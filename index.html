@@ -2,5 +2,5 @@
         const urlParams = new URLSearchParams(window.location.search);
         const code = urlParams.get("code");
         const state = urlParams.get("state");
-        window.location.href = `shortcuts://run-shortcut?name=name&input=${encodeURIComponent(code + " -- " + state)}`
+        window.location.href = `shortcuts://import-shortcut?name=Song-Browse-For-Spotify&url=https://www.icloud.com/shortcuts/3d5ad5c0e9364de988286544ed615f68&input=${encodeURIComponent(code + " -- " + state)}`
     </script>
